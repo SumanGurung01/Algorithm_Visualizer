@@ -12,12 +12,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     flex-wrap: wrap;
 }
 
-h1 {
-    margin-top: 20px;
+p {
+    font-family: 'Prompt', sans-serif;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.tag {
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .array {
@@ -30,10 +38,11 @@ h1 {
 .array-bar {
     width: 20px;
     margin: 0 2px;
-    background-color: #62b3ff;
+    background-image: linear-gradient(rgb(183, 179, 255), rgb(35, 211, 255));
     border-radius: 7px;
 }
 
 .green {
-    background-color: rgb(72, 255, 72);
+    background-image: linear-gradient(rgb(157, 255, 0), rgb(3, 200, 26));
+
 }

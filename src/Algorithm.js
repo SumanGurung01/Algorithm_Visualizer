@@ -6,7 +6,6 @@ import Select from '@mui/material/Select';
 import Button from '@mui/material/Button';
 import generateRandomArray from './GenerateArray';
 import doneAudio from './asset/done.mp3'
-import gitLink from './asset/github.png'
 
 function Algorithm() {
 
@@ -256,10 +255,16 @@ function Algorithm() {
     return (
         <div>
 
+            <div>
+                <p>Sorting Algorithm Visualizer</p>
+                <p className="tag">Sorting Reimagined, Algorithms in Action</p>
+            </div>
+
             <div className="option" >
 
+
                 <div>
-                    <FormControl sx={{ m: 1, minWidth: 160 }} size="small" disabled={sorting}>
+                    <FormControl sx={{ m: 1, minWidth: 200 }} size="small" disabled={sorting}>
                         <InputLabel>Array Size</InputLabel>
                         <Select
                             value={arraySize}
@@ -276,7 +281,7 @@ function Algorithm() {
 
 
                 <div>
-                    <FormControl sx={{ m: 1, minWidth: 160 }} size="small" disabled={sorting}>
+                    <FormControl sx={{ m: 1, minWidth: 200 }} size="small" disabled={sorting}>
                         <InputLabel>Algorithm</InputLabel>
                         <Select
                             value={algorithm}
@@ -293,7 +298,7 @@ function Algorithm() {
 
 
                 <div>
-                    <FormControl sx={{ m: 1, minWidth: 160 }} size="small" disabled={sorting}>
+                    <FormControl sx={{ m: 1, minWidth: 200 }} size="small" disabled={sorting}>
                         <InputLabel>Sorting Speed</InputLabel>
                         <Select
                             value={speed}
@@ -331,9 +336,9 @@ function Algorithm() {
                                 mergeSort()
                         }}
                         disabled={sorted || sorting}
-                        style={{ width: '160px', height: '40px', padding: '3px' }}
+                        style={{ width: '200px', height: '40px', padding: '3px' }}
                     >
-                        Sort it
+                        Sort
                     </Button>
                 </div>
 
@@ -348,12 +353,6 @@ function Algorithm() {
                         style={{ height: `${value * 10}px` }}
                     ></div>
                 ))}
-            </div>
-
-            <div className="socials" style={{ padding: '0px 0px 10px 0px' }}>
-                <a href="https://github.com/SumanGurung01/Algorithm_Visualizer.git">
-                    <img src={gitLink} style={{ width: '30px', marginbottom: '-100px' }} ></img>
-                </a>
             </div>
         </div>
     )
