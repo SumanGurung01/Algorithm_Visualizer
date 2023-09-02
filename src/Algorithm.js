@@ -351,7 +351,9 @@ function Algorithm() {
             </div>
 
             <div className="socials" style={{ padding: '0px 0px 10px 0px' }}>
-                <img src={gitLink} style={{ width: '30px', marginbottom: '-100px' }}></img>
+                <a href="https://github.com/SumanGurung01/Algorithm_Visualizer.git">
+                    <img src={gitLink} style={{ width: '30px', marginbottom: '-100px' }} ></img>
+                </a>
             </div>
         </div>
     )
