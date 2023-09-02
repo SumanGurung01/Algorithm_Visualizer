@@ -333,7 +333,7 @@ function Algorithm() {
                         disabled={sorted || sorting}
                         style={{ width: '160px', height: '40px', padding: '3px' }}
                     >
-                        Sort
+                        Sort it
                     </Button>
                 </div>
 
