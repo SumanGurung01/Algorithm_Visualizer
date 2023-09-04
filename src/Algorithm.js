@@ -256,7 +256,7 @@ function Algorithm() {
         <div>
 
             <div>
-                <p>Sorting Algorithm Visualizer</p>
+                <h1 className="app__name">Sorting Algorithm Visualizer</h1>
                 <p className="tag">Sorting Reimagined, Algorithms in Action</p>
             </div>
 

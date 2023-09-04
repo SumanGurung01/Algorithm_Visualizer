@@ -1,11 +1,21 @@
-/* src/App.css */
 * {
     margin: 0;
 }
 
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+}
+
+.app__name {
+    font-size: 40px;
+    margin: 0px 0px 0px 0px;
+    background: linear-gradient(to right, #4032ff,
+            #ff00f2);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 21px 0px 0px 0px;
 }
 
 .option {
